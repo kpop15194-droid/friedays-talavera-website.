@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ff6b24">
+  <meta name="description" content="Friedays Talavera Branch — affordable student meals, snacks, fries, chicken favorites and Filipino street food.">
+  <title>Friedays — Good Vibes. Great Bites. Sulit Delights.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Paytone+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">GOOD VIBES. GREAT BITES. SULIT DELIGHTS. <span>✦</span> Student meals from ₱49–₱69</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Friedays home"><span class="brand-mark">F</span><span>FRIEDAYS<small>TALAVERA BRANCH</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#menu">Menu</a><a href="#promos">Promotions</a><a href="#how">How to Order</a><a href="#visit">Find Us</a>
+      <button class="nav-order" data-scroll="#menu">ORDER NOW <span>↗</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> YOUR CRAVINGS, OUR PRIORITY!</div>
+        <h1>Big cravings.<br><em>Small budget.</em><br>Happy tummy.</h1>
+        <p>From student-friendly meals to cheesy snacks and Filipino favorites, find something sulit for every craving.</p>
+        <div class="hero-actions"><a class="btn btn-dark" href="#menu">EXPLORE THE MENU <span>→</span></a><a class="text-link" href="#how">How pre-ordering works ↗</a></div>
+        <div class="hero-proof"><span>₱49–₱69</span><div><b>ESTUDYAN-TIPID MEALS</b><small>Good food that fits your allowance.</small></div></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a delicious meal">
+        <div class="sunburst"></div><div class="hero-sticker">SULIT<br>NA 'TO!</div>
+        <div class="food-circle"><div class="food-emoji">🍗</div><div class="food-caption">CRAVE IT. LOVE IT.</div></div>
+        <div class="floating-chip chip-one">🍟 Snack attack!</div><div class="floating-chip chip-two">₱49–₱69</div>
+        <div class="squiggle">✳</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Friedays slogan"><span>GOOD VIBES</span> ✦ <span>GREAT BITES</span> ✦ <span>SULIT DELIGHTS</span> ✦ <span>GOOD VIBES</span> ✦ <span>GREAT BITES</span></section>
+
+    <section class="section menu-section" id="menu">
+      <div class="section-heading"><div><div class="eyebrow">WHAT ARE YOU CRAVING?</div><h2>Pick your <em>happy.</em></h2></div><p>Choose from the menu shown in our latest branch price list. Tap a category and add your picks to your order.</p></div>
+      <div class="menu-toolbar"><div class="category-tabs" id="categoryTabs">
+        <button class="tab active" data-category="All">All</button><button class="tab" data-category="Student Meals">Student Meals</button><button class="tab" data-category="Chicken">Chicken</button><button class="tab" data-category="Frito Favorites">Frito Favorites</button><button class="tab" data-category="Snacks">Snacks & Fries</button><button class="tab" data-category="Drinks">Drinks</button>
+      </div><label class="search-box"><span>⌕</span><input id="menuSearch" type="search" placeholder="Find your craving..." aria-label="Search menu"></label></div>
+      <div class="menu-grid" id="menuGrid"></div>
+      <p class="menu-note">Prices are based on the menu image supplied by the branch. For chicken items, include your preferred flavor (Buffalo, Honey Butter, Cheesy, or Creamy) in the order notes. Please confirm availability with the branch.</p>
+    </section>
+
+    <section class="deal-banner">
+      <div class="deal-doodle">₱</div><div><span class="eyebrow">SULIT ALERT!</span><h2>Allowance-friendly.<br><em>Craving-approved.</em></h2><p>Check out our Estudyan-Tipid Meals, priced at ₱49–₱69.</p></div><a class="btn btn-light" href="#menu" data-filter-student>SEE STUDENT MEALS ↗</a>
+    </section>
+
+    <section class="section promos-section" id="promos">
+      <div class="section-heading"><div><div class="eyebrow">MORE REASONS TO SMILE</div><h2>Good deals, <em>good days.</em></h2></div><p>Campaign concepts from the Friedays marketing plan. Ask the branch which promotions are currently approved and available.</p></div>
+      <div class="promo-grid">
+        <article class="promo-card promo-orange"><div class="promo-icon">🎡</div><span class="promo-tag">PROPOSED CAMPAIGN</span><h3>Buddy Bites</h3><p>Bring a first-time Friedays friend and discover a fun referral reward idea.</p><div class="promo-foot">BRING A FRIEND. SHARE THE CRAVING.</div></article>
+        <article class="promo-card promo-yellow"><div class="promo-icon">🧡</div><span class="promo-tag">PROPOSED LOYALTY IDEA</span><h3>Sulit Stamp Card</h3><p>A proposed reward concept: one stamp for each qualifying purchase of at least ₱49. Five stamps could earn an approved snack reward.</p><div class="promo-foot">EVERY BITE GETS YOU CLOSER.</div></article>
+        <article class="promo-card promo-pink"><div class="promo-icon">🍟</div><span class="promo-tag">FEATURED SERIES</span><h3>Snack Attack</h3><p>Explore cheesy fries, chicken poppers, tenders, and other snack-time favorites.</p><div class="promo-foot">A LITTLE CRUNCH GOES A LONG WAY.</div></article>
+      </div>
+      <div class="promo-disclaimer">Promotions shown here are campaign concepts or product features, not a guarantee of an active discount or free item. Confirm mechanics, dates, prizes, and availability with Friedays before participating.</div>
+    </section>
+
+    <section class="section order-section" id="order">
+      <div class="order-intro"><div class="eyebrow">SKIP THE GUESSWORK</div><h2>Your order,<br><em>your schedule.</em></h2><p>Build your order from the menu, choose a preferred pickup time, and send it to the branch for confirmation.</p>
+        <div class="steps" id="how"><div><b>01</b><span><strong>Choose</strong><small>Browse the menu and add items.</small></span></div><div><b>02</b><span><strong>Schedule</strong><small>Enter your details and preferred pickup.</small></span></div><div><b>03</b><span><strong>Confirm</strong><small>Wait for Friedays to confirm availability and total.</small></span></div></div>
+      </div>
+      <div class="order-panel">
+        <div class="panel-title"><div><span class="eyebrow">YOUR CRAVING LIST</span><h3>Order summary</h3></div><span class="cart-count" id="cartCount">0 ITEMS</span></div>
+        <div id="cartItems" class="cart-items"><div class="empty-cart">Your cart is waiting for something delicious. 🍟</div></div>
+        <div class="cart-total"><span>Estimated total</span><strong id="cartTotal">₱0.00</strong></div>
+        <p class="small-print">Estimated only. Final price is subject to confirmation by the branch.</p>
+        <button class="btn btn-orange full-width" id="checkoutBtn">CONTINUE TO PICKUP DETAILS <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="checkout-wrap" id="checkout" hidden>
+      <div class="checkout-card">
+        <div class="section-heading compact"><div><div class="eyebrow">ALMOST THERE!</div><h2>Pickup <em>details.</em></h2></div><button class="close-checkout" id="closeCheckout" aria-label="Close checkout">✕</button></div>
+        <form id="orderForm">
+          <div class="form-grid"><label>Your name<input name="customerName" required maxlength="60" placeholder="e.g. Juan Dela Cruz"></label><label>Contact number<input name="phone" required inputmode="tel" pattern="[0-9+() -]{7,20}" placeholder="09XX XXX XXXX"></label>
+          <label>Pickup date<input name="pickupDate" id="pickupDate" type="date" required></label><label>Preferred pickup time<select name="pickupTime" id="pickupTime" required><option value="">Select a time</option></select></label>
+          <label class="full-span">Notes / special instructions<textarea name="notes" rows="3" maxlength="300" placeholder="For wings/boneless, specify Buffalo, Honey Butter, Cheesy, or Creamy. Other notes optional."></textarea></label></div>
+          <div class="pickup-notice">Submitting this request does not automatically confirm your order. Please wait for a reply from Friedays before traveling to the branch.</div>
+          <button class="btn btn-dark full-width" type="submit">SEND PRE-ORDER REQUEST ↗</button>
+          <p class="small-print">Your request will be copied and the supplied Friedays Facebook link will open. Paste the order message into Messenger and wait for staff confirmation.</p>
+        </form>
+        <div id="orderResult" class="order-result" role="status" hidden></div>
+      </div>
+    </section>
+
+    <section class="visit-section" id="visit">
+      <div><div class="eyebrow">COME THROUGH, FOODIE!</div><h2>Find your<br><em>Friedays fix.</em></h2><p>Near Talavera National High School, Diaz St., Brgy. Pag-asa, Talavera, Nueva Ecija.</p><div class="visit-meta"><span>🕘 MONDAY–FRIDAY</span><b>9:30 AM – 7:30 PM</b></div><a class="btn btn-light" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Friedays+near+Talavera+National+High+School+Diaz+Street+Talavera+Nueva+Ecija">GET DIRECTIONS ↗</a></div>
+      <div class="map-card"><div class="map-pin">📍</div><div><strong>FRIEDAYS — TALAVERA BRANCH</strong><span>Diaz Street · Brgy. Pag-asa</span><small>Near Talavera National High School</small></div><div class="map-lines"></div></div>
+    </section>
+
+    <section class="feedback-strip"><div><span class="eyebrow">YOUR CRAVINGS, YOUR VOICE</span><h2>Got a thought? <em>Spill it!</em></h2><p>Tell us about your food, prices, waiting time, and experience.</p></div><a class="btn btn-dark" href="mailto:hello@friedays.example?subject=Friedays%20Customer%20Feedback">SHARE FEEDBACK ↗</a></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">F</span><span>FRIEDAYS<small>TALAVERA BRANCH</small></span></a><p>Good Vibes. Great Bites. Sulit Delights.</p><small>© <span id="year"></span> Friedays – Talavera Branch. Menu and promotions subject to confirmation.</small></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
